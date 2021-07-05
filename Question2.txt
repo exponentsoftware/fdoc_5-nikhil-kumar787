@@ -1,0 +1,18 @@
+The main difference between forEach and filter is that forEach just loop over the array and executes the callback but filter executes the callback and check its return value.
+As the name already suggest reduce method of the array object is used to reduce the array to one single value.
+Arrow function — also called fat arrow function— is a new feature introduced in ES6 that is a more concise syntax for writing function expressions. While both regular JavaScript functions and arrow functions work in a similar manner, there are certain differences between them.
+Syntax:-
+var add = function(x, y) {
+  return x + y;
+};
+// ES6
+let add = (x, y) => { return x + y };
+
+The method find() is very similar to findIndex() . The only difference is that the find method returns the element value, but the findIndex method returns the element index.
+
+I will use filter method to filter out one object element in an array .
+
+var declarations are globally scoped or function scoped while let and const are block scoped. var variables can be updated and re-declared within its scope; let variables can be updated but not re-declared; const variables can neither be updated nor re-declared. They are all hoisted to the top of their scope.
+
+
+
